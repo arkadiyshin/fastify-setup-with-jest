@@ -1,0 +1,12 @@
+{
+  "extends": "fastify-tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "typedocOptions": {
+    "entryPoints": ["src/app.ts"],
+    "out": "docs"
+},
+  "include": ["src/**/*.ts"]
+}
